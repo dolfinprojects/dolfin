@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2447"/><stop offset="1" stop-color="#1c3f73"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="1.2" fill="#000" opacity=".12"/><circle cx="10" cy="11" r="1" fill="#000" opacity=".1"/></pattern>
+<pattern id="diag" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="16" fill="#fff" opacity=".05"/></pattern></defs>
+<rect width="800" height="500" fill="url(#bg)"/><rect width="800" height="500" fill="url(#diag)"/><rect x="40" y="300" width="330" height="150" fill="#b8c0cb"/><rect x="430" y="300" width="330" height="150" fill="#b8c0cb"/>
+<rect x="40" y="300" width="330" height="150" fill="url(#dots)"/><rect x="430" y="300" width="330" height="150" fill="url(#dots)"/>
+<rect x="370" y="300" width="60" height="150" fill="#14171c" opacity=".55"/>
+<circle cx="400" cy="345" r="22" fill="#7d8794"/><circle cx="400" cy="345" r="22" fill="url(#sheen)"/>
+<path d="M370 300 q30 14 60 0 v26 h-60 z" fill="#e8710a"/>
+<g transform="translate(470 120) rotate(14)"><rect x="0" y="40" width="190" height="46" rx="10" fill="#3a3f48"/><rect x="190" y="52" width="60" height="22" rx="4" fill="#dde2ea"/><rect x="250" y="58" width="40" height="10" fill="#e8710a"/><rect x="40" y="86" width="26" height="70" rx="6" fill="#3a3f48"/><rect x="10" y="26" width="120" height="14" rx="4" fill="#e8710a"/></g>
+<g stroke="#fff" stroke-width="3" opacity=".6"><line x1="370" y1="272" x2="430" y2="272"/><path d="M370 266 v12 M430 266 v12"/></g></svg>

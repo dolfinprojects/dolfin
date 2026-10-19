@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2447"/><stop offset="1" stop-color="#1c3f73"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="3" cy="4" r="1.2" fill="#000" opacity=".12"/><circle cx="10" cy="11" r="1" fill="#000" opacity=".1"/></pattern>
+<pattern id="diag" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="16" fill="#fff" opacity=".05"/></pattern></defs>
+<rect width="800" height="500" fill="url(#bg)"/><rect width="800" height="500" fill="url(#diag)"/><rect x="0" y="420" width="800" height="80" fill="#0b2447" opacity=".75"/>
+<rect x="90" y="330" width="440" height="30" fill="#3a3f48"/><rect x="110" y="360" width="400" height="40" fill="#8f99a6"/><rect x="110" y="360" width="400" height="12" fill="#4b5563" opacity=".6"/>
+<rect x="150" y="260" width="12" height="70" fill="#c9d1dc"/><rect x="450" y="260" width="12" height="70" fill="#c9d1dc"/><rect x="140" y="252" width="32" height="10" fill="#c9d1dc"/><rect x="440" y="252" width="32" height="10" fill="#c9d1dc"/>
+<rect x="190" y="150" width="230" height="180" rx="10" fill="#b8c0cb"/><rect x="190" y="150" width="230" height="180" fill="url(#sheen)"/><rect x="210" y="170" width="190" height="30" rx="6" fill="#e8710a"/><circle cx="260" cy="260" r="26" fill="#3a3f48"/><circle cx="350" cy="260" r="26" fill="#3a3f48"/>
+<polygon points="560,190 640,190 612,250 588,250" fill="#d1d7e0"/><rect x="588" y="250" width="24" height="42" fill="#d1d7e0"/><path d="M600 292 q-10 40 -2 68" stroke="#f6a24f" stroke-width="12" fill="none" stroke-linecap="round"/><ellipse cx="598" cy="366" rx="34" ry="8" fill="#f6a24f"/>
+<rect x="650" y="330" width="110" height="90" rx="6" fill="#dde2ea"/><rect x="650" y="330" width="110" height="20" fill="#e8710a"/><text x="705" y="388" font-family="Arial" font-weight="800" font-size="16" fill="#3a3f48" text-anchor="middle">GROUT</text>
+<g transform="rotate(-30 700 260)"><rect x="660" y="248" width="90" height="18" rx="3" fill="#cfd5de"/><rect x="745" y="252" width="40" height="10" rx="5" fill="#e8710a"/></g></svg>
